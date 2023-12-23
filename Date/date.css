@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, #234735,rgb(0, 7, 5));
+    background: -webkit-linear-gradient(to right, #06e624,#322);
+    
+
+}
+
+.clockDate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: linear-gradient(to right, #3d1092,#07042bf8); /*sets the background to have two proogressive transitonal colors from bottom to top*/
+    background: -webkit-linear-gradient(to right, #3d1092,#07042bf8);/*sets the background to have two proogressive transiton colors from left to right*/
+    max-width: fit-content; /* fits it in the browser */
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 25px;
+    padding: 25px;
+    margin:0 auto;/*fits the content in the cente of the browser*/
+}
+
+#Date{
+    font-size: 40px;
+    font-family: 'Orbitron';
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.clock{
+    font-size: 60px;
+    font-family: 'alarm clock';
+    text-shadow: 0px 0px 1px #fff;
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;    
+}
